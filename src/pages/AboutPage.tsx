@@ -10,9 +10,9 @@ const AboutPage: React.FC = () => {
         <div className="bg-white rounded-lg shadow-soft overflow-hidden mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-8 md:p-12 flex flex-col justify-center">
-              <h1 className="text-3xl md:text-4xl font-display font-bold mb-4">Our Sweet Story</h1>
+              <h1 className="text-3xl md:text-4xl font-display font-bold mb-4">Our Story</h1>
               <p className="text-gray-600 mb-6">
-                Founded in 2015, Sweetopia began as a small family bakery with a passion for creating delicious treats using traditional recipes and the finest ingredients. What started as a humble shop has grown into a beloved brand, but our commitment to quality and craftsmanship remains unchanged.
+                Founded in 2015, Mithai began as a small family-run Indian sweet shop with a passion for creating authentic Indian desserts using traditional recipes passed down through generations. What started as a humble shop has grown into a beloved brand that brings the rich flavors of Indian sweets to homes across the country.
               </p>
               <p className="text-gray-600 mb-6">
                 Every sweet treat we create is made with love and attention to detail, ensuring that each bite brings joy and satisfaction to our customers.
@@ -23,8 +23,8 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="h-64 md:h-auto">
               <img 
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Sweetopia bakery" 
+                src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                alt="Mithai sweet shop" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -148,7 +148,7 @@ const AboutPage: React.FC = () => {
                 <div className="md:col-span-10">
                   <h3 className="text-xl font-bold mb-2">The Beginning</h3>
                   <p className="text-gray-600">
-                    Sweetopia opened its first small bakery in downtown, offering a limited selection of handcrafted chocolates and cookies. Our small team of three worked tirelessly to perfect recipes and build a loyal customer base.
+                    Mithai opened its first small shop in downtown, offering a curated selection of handcrafted Indian sweets and mithai. Our small team of three worked tirelessly to perfect traditional recipes and build a loyal customer base who appreciated authentic Indian flavors.
                   </p>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const AboutPage: React.FC = () => {
                 <div className="md:col-span-10">
                   <h3 className="text-xl font-bold mb-2">Today & Beyond</h3>
                   <p className="text-gray-600">
-                    Today, Sweetopia continues to grow while maintaining our commitment to quality and craftsmanship. We're constantly innovating and creating new products while staying true to our core values and the traditional techniques that make our treats special.
+                    Today, Mithai continues to grow while maintaining our commitment to quality and authenticity. We're constantly innovating and creating new interpretations of classic Indian sweets while staying true to our core values and traditional recipes.
                   </p>
                 </div>
               </div>

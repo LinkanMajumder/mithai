@@ -147,15 +147,11 @@ const OrderSuccessPage: React.FC = () => {
                 <p className="text-gray-600 mb-4">
                   We're preparing your order for shipment. You'll receive an email with tracking information once your order ships.
                 </p>
-                <p className="text-gray-600">
-                  If you have any questions about your order, please contact our customer service team at{' '}
-                  <a href="mailto:support@sweetopia.com" className="text-primary-600 hover:text-primary-700">
-                    support@sweetopia.com
+                <p className="text-gray-600 mb-4">
+                  If you have any questions about your order, please contact our support team at{' '}
+                  <a href="mailto:support@mithai.com" className="text-primary-600 hover:text-primary-700">
+                    support@mithai.com
                   </a>
-                  {' '}or call us at{' '}
-                  <a href="tel:+11234567890" className="text-primary-600 hover:text-primary-700">
-                    +1 (123) 456-7890
-                  </a>.
                 </p>
               </div>
             </div>

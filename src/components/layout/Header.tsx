@@ -45,12 +45,8 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <Logo className={isScrolled ? 'text-primary-600' : 'text-primary-500'} />
-              <span className={`ml-2 text-xl font-display font-bold ${
-                isScrolled ? 'text-gray-800' : 'text-white'
-              }`}>
-                Sweetopia
-              </span>
+              <Logo className="h-8 w-8" />
+              <span className="ml-2 text-xl font-bold">Mithai</span>
             </Link>
           </div>
           

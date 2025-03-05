@@ -76,11 +76,12 @@ const ContactPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold">Email Us</h3>
             </div>
-            <p className="text-gray-600">
-              <a href="mailto:info@sweetopia.com" className="hover:text-primary-600">info@sweetopia.com</a><br />
-              <a href="mailto:orders@sweetopia.com" className="hover:text-primary-600">orders@sweetopia.com</a><br />
-              <a href="mailto:support@sweetopia.com" className="hover:text-primary-600">support@sweetopia.com</a>
-            </p>
+            <div className="space-y-4">
+              <p>Email us at:</p>
+              <a href="mailto:info@mithai.com" className="hover:text-primary-600">info@mithai.com</a><br />
+              <a href="mailto:orders@mithai.com" className="hover:text-primary-600">orders@mithai.com</a><br />
+              <a href="mailto:support@mithai.com" className="hover:text-primary-600">support@mithai.com</a>
+            </div>
           </div>
         </div>
         
@@ -249,7 +250,7 @@ const ContactPage: React.FC = () => {
               <div>
                 <h3 className="text-lg font-bold mb-2">Can I place a custom order?</h3>
                 <p className="text-gray-600">
-                  Absolutely! We love creating custom treats for special occasions. Please contact us at least 7 days in advance for custom orders. You can email us at orders@sweetopia.com with your requirements.
+                  Absolutely! We love creating custom treats for special occasions. Please contact us at least 7 days in advance for custom orders. You can email us at orders@mithai.com with your requirements.
                 </p>
               </div>
               
@@ -268,6 +269,13 @@ const ContactPage: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
+        
+        <div className="mt-8">
+          <h3 className="text-lg font-semibold mb-4">Custom Orders</h3>
+          <p>
+            We welcome custom orders for special occasions. You can email us at orders@mithai.com with your requirements.
+          </p>
         </div>
       </div>
     </div>

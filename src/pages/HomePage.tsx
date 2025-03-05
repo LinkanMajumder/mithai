@@ -232,7 +232,9 @@ const HomePage: React.FC = () => {
       {/* Benefits Section */}
       <section className="py-16 bg-primary-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-display font-bold text-center mb-12">Why Choose Sweetopia?</h2>
+          <div className="text-center">
+            <h2 className="text-3xl font-display font-bold text-center mb-12">Why Choose Mithai?</h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-soft text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-100 text-primary-600 rounded-full mb-6">

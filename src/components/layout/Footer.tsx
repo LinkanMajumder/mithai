@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
           {/* Logo and description */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <Logo className="text-primary-400" />
-              <span className="ml-2 text-xl font-display font-bold text-white">Sweetopia</span>
+              <Logo className="h-8 w-8 text-white" />
+              <span className="ml-2 text-xl font-display font-bold text-white">Mithai</span>
             </div>
             <p className="text-gray-400">
               Delicious treats delivered to your doorstep. Handcrafted with love and the finest ingredients.
@@ -80,8 +80,8 @@ const Footer: React.FC = () => {
               <p className="mt-4">
                 <a href="tel:+11234567890" className="hover:text-primary-400 transition-colors">+1 (123) 456-7890</a>
               </p>
-              <p>
-                <a href="mailto:info@sweetopia.com" className="hover:text-primary-400 transition-colors">info@sweetopia.com</a>
+              <p className="mt-8 text-center text-sm text-gray-400">
+                <a href="mailto:info@mithai.com" className="hover:text-primary-400 transition-colors">info@mithai.com</a>
               </p>
             </address>
           </div>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
         <div className="pt-8 mt-8 border-t border-gray-800">
           <div className="flex flex-col items-center justify-between md:flex-row">
             <p className="text-gray-400">
-              &copy; {new Date().getFullYear()} Sweetopia. All rights reserved.
+              &copy; {new Date().getFullYear()} Mithai. All rights reserved.
             </p>
             <div className="flex mt-4 space-x-6 md:mt-0">
               <Link to="/privacy-policy" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
